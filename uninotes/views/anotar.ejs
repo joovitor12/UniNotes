@@ -1,0 +1,26 @@
+<%- include ('partials/header.ejs') %>
+
+    <body>
+        <%- include ('partials/navbar.ejs') %>
+            <div class="container">
+                
+                <div class="card" id="formulario-anotacao">
+                    <div class="card-header">
+                        <h3>Anotar!</h3>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" action="/anotacoes-salvas">
+                            <label>Título</label>
+                            <input type="text" placeholder="Titulo" class="form-control" name="titulo">
+                            <br>
+                            <label>Descrição</label>
+                            <textarea placeholder="Como foi o seu dia?" class="form-control" name="descricao"></textarea>
+                            <hr>
+                            <button class="btn btn-primary">Concluir anotação</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+    </body>
+    <%- include ('partials/footer.ejs') %>
