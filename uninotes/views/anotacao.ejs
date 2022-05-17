@@ -1,14 +1,19 @@
 <%- include ('partials/header.ejs') %>
 
-<body class="anotacao">
-    <%- include ('partials/navbar.ejs') %>
-    <div class="container">
-        <hr>
-        <div class="titulo">
-            <h1><%= anotacao.titulo %></h1>
-        </div>
-        <hr>
-        <div class="descricao">
-            <p><%= anotacao.descricao %></p>
-        </div>
-<%- include ('partials/footer.ejs') %>
+    <body class="anotacao">
+        <%- include ('partials/navbar.ejs') %>
+            <div class="container">
+                <hr>
+                <div class="titulo">
+                    <h1>
+                        <%= anotacao.titulo %>
+                    </h1>
+                </div>
+                <hr>
+                <div class="descricao">
+                    <p>
+                        <%= anotacao.descricao %>
+                    </p>
+                </div>
+    </body>
+    <%- include ('partials/footer.ejs') %>

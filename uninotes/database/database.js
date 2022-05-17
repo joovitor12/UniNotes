@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const conn = new Sequelize('uninotes', 'root', '1234567', {
+const conn = new Sequelize('uninotes', 'root', '17060220a', {
     host: 'localhost',
     dialect: 'mysql'
 })

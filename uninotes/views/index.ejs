@@ -2,26 +2,24 @@
 
     <body>
         <%- include ('partials/navbar.ejs') %>
-        <div class="container">
-            <hr>
-            <h1>Suas anotações</h1>
-            <hr>
-            <a href="/anotar" class="btn btn-primary">Anotar!</a>
-            <br> 
-            <% anotacoes.forEach(anotacao => { %>
+            <div class="container">
+                <hr>
+                <h1>Suas anotações</h1>
+                <hr>
+                <a href="/anotar" class="btn btn-primary">Anotar!</a>
                 <br>
-                <div class="card">
-                    <div class="card-body">
-                        <h3>
-                            <%=anotacao.titulo %>
-                        </h3>
+                <% anotacoes.forEach(anotacao => { %>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>
+                                <%=anotacao.titulo %>
+                            </h3>
+                        </div>
+                        <div class="card-footer">
+                            <a href="/anotacao/<%= anotacao.id %>"><button class="btn btn-primary">Visualizar</button></a>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <a href="/anotacao/<%= anotacao.id %>"><button class="btn btn-primary">Visualizar</button></a>
-                    </div>
-                </div>    
-                <% })%> 
-        </div>
+                    <% })%>
+            </div>
     </body>
-
-    <%- include ('partials/footer.ejs') %>

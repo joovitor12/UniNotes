@@ -1,45 +1,105 @@
 /* Alterações gerais */
+
 body {
     background-color: #474757;
 }
-footer{
+
+footer {
     clear: both;
     text-align: center;
     padding: 15px;
+    height: 15vh;
     background-color: #414165;
 }
-p{
+
+p {
     color: #A1A1AA;
 }
-span{
+
+span {
     color: orange;
 }
+
+
 /* Alterações específicas */
+
+
 /*navbar*/
-.navbar-icon{
-    margin-left: 15px;
+
+.navbar-icon {
+    margin-left: 20px;
 }
-.navbar-title{
-    align-items: "center";
+
+.navbar-title {
+    margin-right: 20px;
     color: #A1A1AA;
 }
+
+
 /*about*/
-.about{
+
+.about {
     color: #F4F4F5;
 }
-.about-container{
+
+.about-container {
     width: 920px;
     margin: 0 auto;
     padding: 35px;
 }
-.about-text{
+
+.about-text {
     align-items: "center";
 }
-.btn{
+
+.btn {
     align-items: "center";
 }
+
+
 /*Footer*/
-.row{
-    margin-bottom: 20px;
-    display: grid;
+
+.infos-joao-ronny {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-joao-grid {
+    margin-left: 15px;
+}
+
+.social-ronny-grid {
+    margin-right: 15px;
+}
+
+.linkedin {
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 30px;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.linkedin:hover {
+    color: white;
+}
+
+.github {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+.github:hover {
+    color: black;
+}
+
+
+/* Note */
+
+.formulario-anotacao {
+    margin-top: 10px;
 }
