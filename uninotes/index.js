@@ -8,11 +8,11 @@ const res = require("express/lib/response");
 
 
 conn.authenticate().then(() => {
-    console.log("conexao feita")
-}).catch((msgErro) => {
-    console.log(msgErro)
-})
-
+        console.log("conexao feita")
+    }).catch((msgErro) => {
+        console.log(msgErro)
+    })
+    //exibir arquivos estaticos, carregar arquivos css, arquivos js, imagens...
 app.use(express.static('public'))
     //view engine
 app.set('view engine', 'ejs')
