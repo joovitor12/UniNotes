@@ -3,6 +3,7 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-colaboradores">Colaboradores</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -37,5 +38,17 @@ Agora você pode acessar [`localhost:8080`](http://localhost:8080)seu navegador.
 
 Com o comando executado, agora você pode criar suas anotações e visualizá-las!
 
+## 👷 Colaboradores
+
+#### Nome: Ronny Lima Ribeiro da Silva
+- Registro do Aluno (RA): 00000009775
+- GitHub: [ronnylrsd](https://github.com/ronnylrsd)
+
+#### Nome: João Vitor Machado Andrade
+- Registro do Aluno (RA): 00000004954
+- GitHub: [joovitor12](https://github.com/joovitor12)
 
 
+---
+
+Projeto desenvolvido para o minicurso.
