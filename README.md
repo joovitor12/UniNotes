@@ -8,7 +8,7 @@
 
 <br>
 
-## Tecnologias
+## ✨ Tecnologias
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -17,12 +17,12 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML & CSS](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Bootstrap](https://getbootstrap.com)
 
-## Projeto
+## 💻 Projeto
 
 Projeto realizado para o minicurso de Introdução a back-end e front-end, baseado no bloco de notas onde o usuário pode criar anotações e visualizá-las através da
 página principal.
 
-## Como executar
+## 🚀 Como executar
 
 - Clone o repositório
 - Instale o [Node.js](https://nodejs.org/en/download/)
